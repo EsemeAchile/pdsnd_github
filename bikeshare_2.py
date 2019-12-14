@@ -22,7 +22,7 @@ def get_filters():  # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> get_filters function 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     # -------------------------------------------------------------------------------------------------------------
     global city_value
-    print("Would you like to see data for Chicago, New York City or Washington? Make a choice.")
+    print("Would you like to see data for Chicago, New York City or Washington? Make a choice!")
     city_value = input()
     while True:
         # Let check the content
